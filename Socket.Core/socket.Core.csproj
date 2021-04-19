@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">  
+  <PropertyGroup>    
+    <Title>socket.Core</Title>
+    <TargetFramework>netstandard2.0</TargetFramework>
+   
+    <Description>This is a socket framework based on C # net standard2.0 write, can be used for .NET Framework / dotnet core assembly, can run in window (IOCP) / linux (epoll) .Use asynchronous connection, asynchronous send, asynchronous receive, Performance burst tables, and pass the stress test.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/fengma312/socket.Core</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/fengma312/socket.Core/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageTags>socket.Core socket Async Cache Pool</PackageTags>
+    <PackageReleaseNotes>1.服务端增加在线客户端列表,2.修改bug,</PackageReleaseNotes>
+    <RepositoryType>socket.Core</RepositoryType>
+    <Version>1.0.14</Version>
+    <RepositoryUrl>https://github.com/fengma312/socket.Core/releases</RepositoryUrl>
+    <RootNamespace>socket.Core</RootNamespace>
+    <AssemblyName>socket.Core</AssemblyName>
+    
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\socket.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\socket.Core.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
